@@ -14,6 +14,18 @@ body {
     padding: 0 150px;
 }
 
+.right-header {
+    color: #E5E7EB;
+    
+}
+
+.left-header {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+    flex: 1;
+}
+
 ul {
     padding: 0;
     margin: 0;
@@ -22,19 +34,35 @@ ul {
     gap: 20px;
 }
 
-li {
-    
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    padding: 100px 150px;
+    gap: 30px;
 }
 
-.right-links {
+.left-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
     color: #E5E7EB;
+}
+
+.right-hero {
     
 }
 
-.left-links {
-    color: #F9FAF8;
-    font-size: 24px;
+.main-text {
+    font-size: 48px;
     font-weight: 900;
-    padding-left: 30px;
-    flex: 1;
+    color: #F9FAF8;
+}
+
+.hero button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: none;
+    color: #F9FAF8;
 }
