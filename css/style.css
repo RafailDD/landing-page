@@ -77,3 +77,40 @@ ul {
     color: #F9FAF8;
     margin-top: 10px;
 }
+
+.info {
+    padding: 40px 0px;
+}
+
+.info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.info-main {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-box {
+    flex-basis: 150px;
+}
+
+.info-image{
+    border: solid #3882F6;
+    width: 144px;
+    height: 144px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.info-text {
+    color: #1F2937;
+    text-align: center;
+}
