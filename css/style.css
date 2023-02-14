@@ -39,6 +39,8 @@ ul {
     background-color: #1F2937;
     padding: 100px 150px;
     gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .left-hero {
@@ -47,10 +49,18 @@ ul {
     align-items: flex-start;
     font-size: 18px;
     color: #E5E7EB;
+    flex-basis: 500px;
 }
 
 .right-hero {
-    
+    background-color: grey;
+    color: white;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 500px;
 }
 
 .main-text {
@@ -65,4 +75,5 @@ ul {
     padding: 5px 20px;
     border: none;
     color: #F9FAF8;
+    margin-top: 10px;
 }
