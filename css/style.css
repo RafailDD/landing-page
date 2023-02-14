@@ -1,7 +1,7 @@
 body {
     display: flex;
-    font-family: sans-serif;
     flex-direction: column;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -113,4 +113,30 @@ ul {
 .info-text {
     color: #1F2937;
     text-align: center;
+}
+
+.testimonial{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    justify-content: center;
+}
+
+.testimonial-quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    max-width: 1000px;
+    align-self: center;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    text-align: right;
+    color: black;
+    
+    margin-top: 10px;
+    
 }
